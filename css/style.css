@@ -1,6 +1,6 @@
 /* start */
 * {
-    font-family: Roboto;
+    font-family: 'Roboto',sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -27,8 +27,7 @@ header, footer {
     font-size: 24px;
     color: #F9FAF8;
     flex: 6;
-    padding-left: auto;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 header p,a {
@@ -47,13 +46,24 @@ header p,a {
     background-color: #1F2937;
 }
 
+.hero div {
+    flex-direction: column;
+    display: flex;
+    padding: 50px;
+    flex: 1;
+
+}
+
 .subtext {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.button {
-    color: #3882F6;
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    padding: 2px 10px;
 }
 
 /* info */
@@ -87,7 +97,25 @@ header p,a {
 /* call to action */
 .call {
     background-color: #3882F6;
+    margin:  50px;
+    padding: 40px;
+    display: flex;
     flex: auto;
+    border-radius: 5px;
+    color: #F9FAF8;
+}
+
+.call div {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+
+.call button {
+    border: 1px solid white;
+    padding-left: 20px;
+    
+    flex: 0.3;
 }
 
 /* footer */
