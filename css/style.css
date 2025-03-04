@@ -6,6 +6,15 @@
     box-sizing: border-box;
 }
 
+
+
+
+
+
+
+
+
+/*
 body {
     display: flex;
     flex-direction: column;
@@ -18,7 +27,6 @@ header, section, footer {
     align-content: center;
 }
 
-/* header */
 header, footer {
     background-color: #1F2937;
 }
@@ -35,9 +43,9 @@ header p,a {
     flex: 1;
     color: #E5E7EB;
     font-size: 18px;
+    margin-right: 50px;
 }
 
-/* hero */
 .hero {
     font-size: 48px;
     color: #F9FAF8;
@@ -46,17 +54,19 @@ header p,a {
     background-color: #1F2937;
 }
 
-.hero div {
-    flex-direction: column;
-    display: flex;
-    padding: 50px;
-    flex: 1;
-
-}
-
-.subtext {
+.hero p {
     font-size: 18px;
     color: #E5E7EB;
+    font-weight: 100;
+}
+
+.image-placeholder {
+    background-color: rgb(111, 115, 124);
+    margin-right: 50px;
+}
+
+.image-placeholder p {
+
 }
 
 button {
@@ -66,14 +76,12 @@ button {
     padding: 2px 10px;
 }
 
-/* info */
 .info-header {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
 }
 
-/* quote */
 .quote {
     background-color: #E5E7EB;
     color: #1F2937;
@@ -85,7 +93,6 @@ button {
 .quote q {
     font-size: 36px;
     font-weight: lighter;
-    font-style: italic;
     text-align: justify;
     padding: 0px;
 }
@@ -94,7 +101,6 @@ button {
     margin-left: auto;
 }
 
-/* call to action */
 .call {
     background-color: #3882F6;
     margin:  50px;
@@ -118,10 +124,10 @@ button {
     flex: 0.3;
 }
 
-/* footer */
 footer p {
     color: #F9FAF8;
     flex: auto;
     text-align: center;
     padding: 15px;
 }
+*/
